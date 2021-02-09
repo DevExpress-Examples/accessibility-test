@@ -12,13 +12,13 @@
     </header>
     <form id="form1" runat="server">
         <main>
-            <dx:aspxcombobox id="ComboBox" runat="server" caption="ComboBox Caption" accessibilitycompliant="true">
-            <Items>
-                <dx:ListEditItem Value="Item - 1" />
-                <dx:ListEditItem Value="Item - 2" />
-                <dx:ListEditItem Value="Item - 3" />
-            </Items>
-        </dx:aspxcombobox>
+            <dx:ASPxComboBox ID="ComboBox" runat="server" Caption="Product Name" SelectedIndex="0" AccessibilityCompliant="true">
+                <Items>
+                    <dx:ListEditItem Value="Item 1" />
+                    <dx:ListEditItem Value="Item 2" />
+                    <dx:ListEditItem Value="Item 3" />
+                </Items>
+            </dx:ASPxComboBox>
         </main>
     </form>
 </body>
